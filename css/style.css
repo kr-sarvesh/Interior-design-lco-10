@@ -1,0 +1,198 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(/images/interior_design.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 40px;
+}
+nav h1 {
+  position: relative;
+  right: 80px;
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+}
+nav h1:hover {
+  color: #061f32;
+}
+
+.list-div {
+  width: 950px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  align-items: start;
+  justify-items: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid white;
+}
+.list-div .list {
+  list-style-type: none;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: 1000px;
+  height: 30px;
+}
+
+.list .list-items {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+}
+.list .list-items:hover {
+  border-bottom: 2px solid #061f32;
+}
+
+.call_us {
+  display: flex;
+  width: 270px;
+  align-items: start;
+  justify-content: start;
+  align-items: start;
+  gap: 12px;
+  margin-left: 25px;
+}
+.call_us .fa-solid {
+  color: white;
+}
+
+.call_us p {
+  position: relative;
+  top: -15px;
+  color: white;
+  font-weight: 100;
+}
+
+.main {
+  margin-top: 80px;
+  padding-top: 20px;
+  margin-left: 20px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-around;
+}
+.main .left-section h1 {
+  color: #fff;
+  font-size: 80px;
+  width: 750px;
+  margin-left: 50px;
+}
+.main .btn {
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  padding: 10px 10px;
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 15px 40px;
+  font-size: 30px;
+  margin-top: 80px;
+  font-size: 30px;
+  margin-left: 45px;
+}
+
+.main .btn:hover {
+  border: 2px solid #061f32;
+}
+
+.right-section .note1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin-left: 200px;
+}
+
+.right-section .note1 .main-note {
+  background: rgb(246, 239, 242, 0.2);
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 25px 25px;
+  height: 150px;
+  width: 280px;
+}
+.right-section .note1 .main-note p {
+  font-size: 20px;
+}
+
+.home-line .line1 {
+  margin-left: 120px;
+  width: 3px;
+  height: 100px;
+  background-color: #fff;
+}
+
+.home-line .circle1 {
+  background-color: #fff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  margin-left: 112px;
+}
+
+.main-note .fa-solid {
+  width: 110px;
+  height: 50px;
+  text-align: center;
+  border-radius: 25px;
+  padding: 5px 5px;
+  color: black;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.note2 {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  position: relative;
+  right: 200px;
+  bottom: -80px;
+}
+.note2 .main-note {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+  height: 150px;
+  width: 300px;
+  font-size: 20px;
+  padding: 25px 50px;
+  background: rgb(246, 239, 242, 0.2);
+}
+
+.home-line-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-line-2 .line2 {
+  width: 100px;
+  height: 3px;
+  background-color: #fff;
+}
+
+.home-line-2 .circle2 {
+  background-color: #fff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
