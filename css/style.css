@@ -147,7 +147,7 @@ nav h1:hover {
   margin-left: 112px;
 }
 
-.main-note .fa-solid {
+.main-note .fa {
   width: 110px;
   height: 50px;
   text-align: center;
@@ -156,6 +156,10 @@ nav h1:hover {
   color: black;
   background-color: white;
   margin-bottom: 15px;
+}
+
+.main-note .fa:hover {
+  cursor: pointer;
 }
 
 .note2 {
@@ -177,6 +181,21 @@ nav h1:hover {
   font-size: 20px;
   padding: 25px 50px;
   background: rgb(246, 239, 242, 0.2);
+}
+
+.note2 .fa-solid {
+  width: 110px;
+  height: 50px;
+  text-align: center;
+  border-radius: 25px;
+  padding: 5px 5px;
+  color: black;
+  background-color: white;
+  margin-bottom: 15px;
+}
+
+.note2 .fa-solid:hover {
+  cursor: pointer;
 }
 
 .home-line-2 {
